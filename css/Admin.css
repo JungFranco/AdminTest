@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  left: 0;
+  max-width: 100%;
+  top: 0;
+  background-color: #112033;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+.AdminControlPanel {
+  background-color: #253C58;
+  top: 0;
+  position: fixed;
+  width: 15.625%;
+  height: 100vh;
+  transition: 500ms;
+  left: -240px;
+}
+.AdminControlPanelActive {
+  position: fixed;
+  left: 0;
+}
+.AdminControlPanel .CloseBtn {
+  margin-top: 10px;
+  margin-left: 85%;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(img/icon/BurgerMenu.png);
+}
+.AdminControlPanel .CloseBtnActive {
+  background-image: url(img/icon/CloseBtn.png);
+}
+.AdminControlPanel .AdminControl {
+  margin-top: 4vh;
+  margin-left: 20%;
+  height: 221px;
+  width: 73.66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.AdminControlPanel .AdminControl .MenuItem {
+  width: 75%;
+}
+.AdminControlPanel .AdminControl .MenuItem .MenuLink {
+  display: flex;
+}
+.AdminControlPanel .AdminControl .MenuItem .MenuLink .LinkText {
+  font-family: Verdana;
+  font-size: 1.25rem;
+  line-height: 29px;
+  color: #fff;
+}
+.AdminControlPanel .AdminControl .MenuItem .MenuLink .LinkText .InnerLinkText {
+  margin-top: .5rem;
+  margin-left: 1rem;
+}
+@media screen and (min-width: 2559px) {
+  .AdminControlPanel {
+    width: 14%;
+  }
+  .AdminControlPanel .CloseBtn {
+    margin-top: 30px;
+    margin-left: 77%;
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 2049px) {
+  .AdminControlPanel {
+    width: 15%;
+  }
+  .AdminControlPanel .CloseBtn {
+    margin-top: 20px;
+    margin-left: 85%;
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 1921px) {
+  .AdminControlPanel {
+    width: 16%;
+  }
+}
+@media screen and (max-width: 1681px) {
+  .AdminControlPanel {
+    width: 18%;
+  }
+}
+@media screen and (max-width: 1601px) {
+  .AdminControlPanel {
+    width: 18.5%;
+  }
+}
+@media screen and (max-width: 1540px) {
+  .AdminControlPanel {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1442px) {
+  .AdminControlPanel {
+    width: 21%;
+  }
+}
+@media screen and (max-width: 1401px) {
+  .AdminControlPanel {
+    width: 22%;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .AdminControlPanel {
+    width: 23%;
+  }
+}
+@media screen and (max-width: 1281px) {
+  .AdminControlPanel {
+    width: 24%;
+  }
+}
+@media screen and (max-width: 1201px) {
+  .AdminControlPanel {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 1153px) {
+  .AdminControlPanel {
+    width: 26%;
+  }
+}
+@media screen and (max-width: 1111px) {
+  .AdminControlPanel {
+    width: 27%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .AdminControlPanel {
+    width: 29%;
+  }
+}
+@media screen and (max-width: 961px) {
+  .AdminControlPanel {
+    width: 31%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .AdminControlPanel {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 801px) {
+  .AdminControlPanel {
+    width: 38%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .AdminControlPanel {
+    width: 39%;
+  }
+}
+@media screen and (max-width: 641px) {
+  .AdminControlPanel {
+    width: 47%;
+  }
+  .AdminControlPanel .AdminControl {
+    margin-left: 17%;
+  }
+}
+@media screen and (max-width: 611px) {
+  .AdminControlPanel {
+    width: 50%;
+  }
+  .AdminControlPanel .AdminControl {
+    margin-left: 16%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .AdminControlPanel {
+    width: 54%;
+  }
+  .AdminControlPanel .AdminControl {
+    margin-left: 15%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .AdminControlPanel {
+    width: 58%;
+  }
+  .AdminControlPanel .AdminControl {
+    margin-left: 14%;
+  }
+}
+@media screen and (max-width: 481px) {
+  .AdminControlPanel {
+    width: 62%;
+  }
+  .AdminControlPanel .AdminControl {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .AdminControlPanel {
+    width: 65%;
+  }
+  .AdminControlPanel .CloseBtn {
+    margin-top: 10px;
+    margin-left: 90%;
+    width: 20px;
+    height: 20px;
+  }
+  .AdminControlPanel .AdminControl {
+    margin-left: 7%;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 415px) {
+  .AdminControlPanel {
+    width: 67%;
+  }
+  .AdminControlPanel .AdminControl {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .AdminControlPanel {
+    width: 74%;
+  }
+  .AdminControlPanel .AdminControl {
+    margin-left: 15%;
+  }
+  .AdminControlPanel .AdminControl .MenuItem .MenuLink .LinkText .InnerLinkText {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 361px) {
+  .AdminControlPanel {
+    width: 77%;
+  }
+}
+@media screen and (max-width: 323px) {
+  .AdminControlPanel {
+    width: 86%;
+  }
+}
